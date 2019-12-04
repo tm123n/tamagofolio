@@ -79,7 +79,7 @@ section h3{
 	margin: 1em auto;
 }
 section:last-child {
-  margin: 0;
+  margin: 0 auto;
 }
 .top{
 	padding: 100px 0;
@@ -180,7 +180,7 @@ footer p{
 	}
 	.center_lastleft{
 	text-align-last: left;
-	max-width:50vw;
+	max-width:60vw;
 	margin: 0 auto;
 }
 	section#skill .skillbox{
@@ -203,7 +203,40 @@ footer p{
 
 /*作品別ページのレイアウト*/
 
+
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+table th{
+  border-bottom: solid 2px #D7CDC2;
+  padding: 10px 0;
+  width: 20%;
+}
+
+table td{
+  border-bottom: solid 2px #D7CDC2;
+  text-align: center;
+  padding: 10px 0;
+}
+section#works_detail{
+	text-align: left;
+}
+section#works_detail h3{
+	margin:1.5em 0;
+	color: #27180A;
+	font-size: 24px;
+	text-align: left;
+}
+section#works_detail a{
+	color: inherit;
+}
+.center_point{
+	text-align: center;
+}
 .works_key{
-	max-width: 100%;
+	max-width: 90%;
 	margin: 3em auto;
+	text-align: center;
 }
