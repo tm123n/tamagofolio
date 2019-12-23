@@ -96,6 +96,10 @@ section:last-child {
 section#works{
 	text-align: center;
 }
+section#works .works_list img{
+	max-width: 95%;
+	height: auto;
+}
 section#about{
 	text-align: center;
 }
