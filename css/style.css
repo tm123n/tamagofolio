@@ -100,6 +100,9 @@ section#works .works_list img{
 	max-width: 95%;
 	height: auto;
 }
+section#works a{
+	color: #27170A;
+}
 section#about{
 	text-align: center;
 }
