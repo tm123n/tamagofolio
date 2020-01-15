@@ -4,6 +4,19 @@
 <meta charset="utf-8">
 <title>portfolio</title>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(function(){
+			
+			$("#smp_btn").click(function(){
+				
+				$("header nav").slideToggle();
+				
+			});
+	
+		});
+</script>
+
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -11,6 +24,15 @@
 <body>
 	<header>
 	  <h1><a href="index.html"><img src="img/header_logo@2x.png" width="63" height="31" alt=""/></a></h1>
+	<nav>
+	  <ul>
+	    <li><a href="#works">Works</a></li>
+	    <li><a href="#about">About</a></li>
+	    <li><a href="#mind">Mind</a></li>
+	    <li><a href="#skill">Skill</a></li>
+	    <li><a href="#contact">Contact</a></li>
+      </ul>
+	</nav>
 	</header>
 	<main>
 		<div class="top">
@@ -19,14 +41,23 @@
 	  	</div>
 		<section id="works">
 			<h2>Works</h2>
-			<h3>UI/UX design</h3>
-			<div class="works_list">
-				<a href="works/works_01.html" target="_blank"><img src="img/key_baito@2x.png" width="360" height="276" alt=""/></a>
-				<a href="works/works_02.html"><img src="img/key_gfmr@2x.png" alt="" width="360" height="276" border="0"/></a>
-				<a href="works/works_03.html"><img src="img/key_ikigai@2x.png" width="360" height="276" alt=""/></a>
-				<a href="index.html"><img src="img/key_tamago@2x.png" width="360" height="276" alt=""/></a>
+			<div class="design_category">
+				<h3>UI/UX design</h3>
+				<div class="works_list">
+					<a href="works/works_01.html" target="_blank"><img src="img/key_baito@2x.png" width="360" height="276" alt=""/></a>
+					<a href="works/works_02.html"><img src="img/key_gfmr@2x.png" alt="" width="360" height="276" border="0"/></a>
+					<a href="works/works_03.html"><img src="img/key_ikigai@2x.png" width="360" height="276" alt=""/></a>
+					<a href="index.html"><img src="img/key_tamago@2x.png" width="360" height="276" alt=""/></a>
+				</div>
 			</div>
-			<h3><a href="https://tm123n.github.io/MatsuiTomona.github.io/" target="_blank">他の作品はこちら</a></h3>
+			<div class="design_category">
+				<h3>Others</h3>
+				<div class="works_list">
+					<a href="works/works_04.html"><img src="img/gasutou_key@2x.png" width="360" height="276" alt=""/></a>
+					<a href="works/works_05.html"><img src="img/a4_key@2x.png" width="360" height="276" alt=""/></a>
+				</div>
+			</div>
+			<h3><a href="https://tm123n.github.io/MatsuiTomona.github.io/" target="_blank">他の作品はこちら(旧ポートフォリオ)</a></h3>
 	  	</section>
 		<section id="about">
 			<h2>About</h2>
@@ -77,5 +108,6 @@
 		  <h3><a href="https://twitter.com/messages/compose?recipient_id=1131909003850571777&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="mt_web99" data-show-count="false">お問い合わせはこちら</a></h3>
 		  <small>&copy;2019-2020 Matsui Tomona</small>
 	</footer>
+	<p id="smp_btn"><a href="#"><img src="img/menu@2x.png" width="62" height="62" alt=""/></a></p>
 </body>
 </html>
