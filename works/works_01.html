@@ -4,13 +4,35 @@
 <meta charset="utf-8">
 <title>portfolio</title>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(function(){
+			
+			$("#smp_btn").click(function(){
+				
+				$("header nav").slideToggle();
+				
+			});
+	
+		});
+</script>
+	
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<header>
-	  <h1><a href="../index.html"><img src="../img/header_logo@2x.png" width="63" height="31" alt=""/></a></h1>
-</header>
+	<header>
+		<h1><a href="../index.html"><img src="../img/header_logo@2x.png" width="63" height="31" alt=""/></a></h1>
+		<nav>
+		  <ul>
+			<li><a href="../index.html#works">Works</a></li>
+			<li><a href="../index.html#about">About</a></li>
+			<li><a href="../index.html#mind">Mind</a></li>
+			<li><a href="../index.html#skill">Skill</a></li>
+			<li><a href="../index.html#contact">Contact</a></li>
+		  </ul>
+		</nav>
+	</header>
 	<main>
 	  <section id="works_detail">
 		<h2>バイト革命</h2>
@@ -42,7 +64,7 @@
 				<li>３ヶ月後も働いていたいか</li>
 			</ol>
 			<h4>②不満が多かったランキング</h4>
-		  <p>質問項目で不満の多かった順にランキングが表示される。ポイント数の変動がグラフ形式で閲覧できる。アルバイト学生はどんな悩みを抱えているのか？また、悩みに変化の兆しはあるか？が可視化できる。</p>
+		  	<p>質問項目で不満の多かった順にランキングが表示される。ポイント数の変動がグラフ形式で閲覧できる。アルバイト学生はどんな悩みを抱えているのか？また、悩みに変化の兆しはあるか？が可視化できる。</p>
 			<table>  
 				<tr>
 					<th>制作人数</th>
@@ -62,12 +84,11 @@
 				</tr>
 				<tr>
 					<th>制作物</th>
-					<td><a href="https://xd.adobe.com/view/654770b5-aab4-4550-53cc-04e41898c8dc-1376/" target="_blank">XDプロトタイププレビューはこちら</a></td>
+					<td><a href="https://xd.adobe.com/view/2850c6dd-a7aa-4dfb-463a-bda529d81342-5e61/" target="_blank">XDプロトタイププレビューはこちら</a></td>
 				</tr>
 			</table>
 		</div>
 	  </section>
-
 	</main>
 	<footer id="contact">
 	  <h2>Contact</h2>
@@ -76,6 +97,7 @@
 	  <h3><a href="https://twitter.com/messages/compose?recipient_id=1131909003850571777&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="mt_web99" data-show-count="false">お問い合わせはこちら</a></h3>
 	  <small>&copy;2019-2020 Matsui Tomona</small>
 	</footer>
+	<p id="smp_btn"><a href="#"><img src="../img/menu@2x.png" width="62" height="62" alt=""/></a></p>
 </body>
 
 </html>

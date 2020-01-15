@@ -4,68 +4,90 @@
 <meta charset="utf-8">
 <title>portfolio</title>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(function(){
+			
+			$("#smp_btn").click(function(){
+				
+				$("header nav").slideToggle();
+				
+			});
+	
+		});
+</script>	
+
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<header>
-	  <h1><a href="../index.html"><img src="../img/header_logo@2x.png" width="63" height="31" alt=""/></a></h1>
+		<h1><a href="../index.html"><img src="../img/header_logo@2x.png" width="63" height="31" alt=""/></a></h1>
+		<nav>
+		  <ul>
+			<li><a href="../index.html#works">Works</a></li>
+			<li><a href="../index.html#about">About</a></li>
+			<li><a href="../index.html#mind">Mind</a></li>
+			<li><a href="../index.html#skill">Skill</a></li>
+			<li><a href="../index.html#contact">Contact</a></li>
+		  </ul>
+		</nav>
 	</header>
 	<main>
-	  <section id="works_detail">
-		<h2>ギフミル</h2>
-		<div class="center_point">
-		  <p>UI/UXデザイン</p>
-		  <img src="../img/gifumiru_works.png" alt="" class="works_key"/>
-		</div>
-		<div class="center_lastleft">
-			<h3>コンセプト</h3>
-			<p>相手にぴったりなギフトをAIがレコメンドしてくれるアプリ<br>
-			プレゼント選びのハードルを下げることで、人と人の結びつきを強めるきっかけを提供することを、サービスの体験価値としました。</p>
-			<h3>プロダクトの目的・ゴール状態</h3>
-			<p>プレゼント選びの際に、相手に合うプレゼントが分からず混乱してしまう状態を解決すること。</p>
-			<ul>
-		    	<li>自分のとの関係性</li>
-				<li>相手の趣味</li>
-			    <li>好きな系統</li>
-			    <li>ライフスタイル</li>
-		  	</ul>
-			<h3>ゴールに導くためのソリューション</h3>
-			<p>プレゼントを選ぶ側のユーザーが贈る相手の知っている情報を入力すると、その項目から相手におすすめなギフトの一覧が表示される。商品詳細からAmazonや楽天の商品リンクに飛んで購入できる。</p>
-			<table>  
-				<tr>
-					<th>制作人数</th>
-					<td>5人（デザイナー1:エンジニア2:ビジネスプロフェッショナル2）</td>
-				</tr>
-				<tr>
-					<th>担当領域</th>
-					<td>デザイン（プロトタイプ、ロゴ作成）</td>
-				</tr>
-				<tr>
-					<th>制作期間</th>
-					<td>アイデア出し〜要件定義とプロトタイプ作成：二週間<br>ブラッシュアップ・発表準備：二週間<br>
-					合計約１ヶ月</td>
-				</tr>
-				<tr>
-					<th>制作環境</th>
-					<td>Adobe XD,Illustrator,Photoshop</td>
-				</tr>
-				<tr>
-					<th>制作物</th>
-					<td><a href="https://xd.adobe.com/view/2850c6dd-a7aa-4dfb-463a-bda529d81342-5e61/" target="_blank">XDプロトタイププレビューはこちら</a></td>
-				</tr>
-			</table>
-		</div>
-	  </section>
-
+		<section id="works_detail">
+			<h2>ギフミル</h2>
+			<div class="center_point">
+			  <p>UI/UXデザイン</p>
+			  <img src="../img/gifumiru_works.png" alt="" class="works_key"/>
+			</div>
+			<div class="center_lastleft">
+				<h3>コンセプト</h3>
+				<p>相手にぴったりなギフトをAIがレコメンドしてくれるアプリ<br>
+				プレゼント選びのハードルを下げることで、人と人の結びつきを強めるきっかけを提供することを、サービスの体験価値としました。</p>
+				<h3>プロダクトの目的・ゴール状態</h3>
+				<p>プレゼント選びの際に、相手に合うプレゼントが分からず混乱してしまう状態を解決すること。</p>
+				<ul>
+					<li>自分のとの関係性</li>
+					<li>相手の趣味</li>
+					<li>好きな系統</li>
+					<li>ライフスタイル</li>
+				</ul>
+				<h3>ゴールに導くためのソリューション</h3>
+				<p>プレゼントを選ぶ側のユーザーが贈る相手の知っている情報を入力すると、その項目から相手におすすめなギフトの一覧が表示される。商品詳細からAmazonや楽天の商品リンクに飛んで購入できる。</p>
+				<table>  
+					<tr>
+						<th>制作人数</th>
+						<td>5人（デザイナー1:エンジニア2:ビジネスプロフェッショナル2）</td>
+					</tr>
+					<tr>
+						<th>担当領域</th>
+						<td>デザイン（プロトタイプ、ロゴ作成）</td>
+					</tr>
+					<tr>
+						<th>制作期間</th>
+						<td>アイデア出し〜要件定義とプロトタイプ作成：二週間<br>ブラッシュアップ・発表準備：二週間<br>
+						合計約１ヶ月</td>
+					</tr>
+					<tr>
+						<th>制作環境</th>
+						<td>Adobe XD,Illustrator,Photoshop</td>
+					</tr>
+					<tr>
+						<th>制作物</th>
+						<td><a href="https://xd.adobe.com/view/2850c6dd-a7aa-4dfb-463a-bda529d81342-5e61/" target="_blank">XDプロトタイププレビューはこちら</a></td>
+					</tr>
+				</table>
+			</div>
+		</section>
 	</main>
 	<footer id="contact">
-	  <h2>Contact</h2>
-	  <p>お問い合わせは、TwitterのDMから受け付けております。ご感想やご相談など、下記のボタンからお気軽にどうぞ。
-	  </p>
-	  <h3><a href="https://twitter.com/messages/compose?recipient_id=1131909003850571777&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="mt_web99" data-show-count="false">お問い合わせはこちら</a></h3>
-	  <small>&copy;2019-2020 Matsui Tomona</small>
+		<h2>Contact</h2>
+		<p>お問い合わせは、TwitterのDMから受け付けております。ご感想やご相談など、下記のボタンからお気軽にどうぞ。
+		</p>
+		<h3><a href="https://twitter.com/messages/compose?recipient_id=1131909003850571777&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="mt_web99" data-show-count="false">お問い合わせはこちら</a></h3>
+		<small>&copy;2019-2020 Matsui Tomona</small>
 	</footer>
+	<p id="smp_btn"><a href="#"><img src="../img/menu@2x.png" width="62" height="62" alt=""/></a></p>
 </body>
 
 </html>
