@@ -64,10 +64,10 @@ header nav{
 	display: none;
 	background-color: rgba(0,0,0,0.74);
 	position: fixed;
-	width: 40vw;
 	height: calc( 100vh - 80px ) ;
 	top: 80px;
 	right: 0;
+	margin-right: 2vw
 }
 header nav ul{
 	display: flex;
@@ -91,19 +91,19 @@ main{
 }
 section{
 	background-color: #FAF8EF;
-	padding: 2em 1em;
+	padding: 3em 1em;
 }
 section h2{
 	text-align: center;
-	font-size: 36px;
+	font-size: 40px;
 	color: #27180A;
-    margin: 2em auto;
+    margin: 1.5em auto;
 }
 section h3{
 	text-align: center;
-	font-size: 16px;
+	font-size: 19px;
 	color: #8E8E8E;
-	margin: 1em auto;
+	margin: 1.5em auto;
 }
 section:last-child {
   margin: 0 auto;
@@ -242,7 +242,6 @@ footer p{
 		display: inherit;
 		background-color: transparent;
 		position: static;
-		width: 45vw;
 		height: auto;
 	}
 	header nav ul{
@@ -254,7 +253,7 @@ footer p{
 		flex-direction: row;
 		flex-wrap: wrap;
 		margin: inherit;
-		width: inherit;
+		width: 30vw;
 	}
 	header nav a {
     margin: inherit;
@@ -310,6 +309,13 @@ footer p{
 	img.a4 {
 		max-width: 40%;
 	}
+	.copy {
+    background: linear-gradient(transparent 59%, #FAD668 70%);
+    display: inline-block;
+    font-size: 25px;
+    padding: 7px;
+	margin: 0.5em 0;
+	}
 }
 
 /*作品別ページのレイアウト*/
@@ -350,8 +356,17 @@ section#works_detail a{
 .center_point{
 	text-align: center;
 }
+.center_point p{
+	font-size: 20px;
+}
 .works_key{
 	max-width: 90%;
 	margin: 3em auto;
 	text-align: center;
 }
+.copy {
+    font-size: 25px;
+    padding: 7px;
+	margin: 0.5em 0;
+	line-height: 1.5;
+	}
